@@ -1,0 +1,17 @@
+.header-title{
+    display: flex;
+  justify-content: center;
+    font-size: 40px;
+    color: white;
+    padding-top: 100px;
+}
+.header-preview{
+    align-items: center; 
+    justify-content: center;
+    display: flex;
+
+}
+.header-preview-vertical-line{
+    rotate: 90deg;
+    background: white;
+}

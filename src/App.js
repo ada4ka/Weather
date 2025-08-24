@@ -14,8 +14,8 @@ function App() {
   return (
 <div>
    <Nav/>
-   {/* <Header/>
-  <News/>
+    <Header/>
+{/*  <News/>
   <Pixabay/>
   <Weather/>
    <Footer/>

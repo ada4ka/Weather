@@ -1,6 +1,6 @@
 import React from "react";
 import './Nav.css';
-import './Root.css'
+// import './Root.css'
 const Nav = () => {
   return (
     <nav className="nav" >
