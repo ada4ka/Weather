@@ -1,5 +1,6 @@
 import React from "react";
 import './Nav.css';
+import './Root.css'
 const Nav = () => {
   return (
     <nav className="nav" >
@@ -11,7 +12,7 @@ const Nav = () => {
         <li className="nav-left-list-item">Menu</li>
      </ul>
    </div>
-   <div className="nsv-right">
+   <div className="nav-right">
    <button className="nav-right-enter">Sing Up</button>
    <img src="" alt="" className="nav-right-profile" />
    </div>

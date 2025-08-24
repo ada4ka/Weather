@@ -14,14 +14,14 @@ function App() {
   return (
 <div>
    <Nav/>
-   <Header/>
+   {/* <Header/>
   <News/>
   <Pixabay/>
   <Weather/>
    <Footer/>
    <UseNews/>
    <UsePixabay/>
-   <UseWeather/>
+   <UseWeather/> */}
 
 </div>
   );

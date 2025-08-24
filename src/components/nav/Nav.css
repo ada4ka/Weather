@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; /* по вертикали */
+  padding: 10px 20px; 
+}
+
+.nav-left {
+  display: flex; 
+  align-items: center; 
+}
+
+.nav-right {
+  display: flex; 
+  align-items: center;
+}
+
+.nav-left-logo {
+  margin-right: 20px;
+}
+
+.nav-left-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; 
+  align-items: center;
+}
+
+.nav-left-list-item {
+  margin-right: 46px;
+}
+
+.nav-right-enter {
+  font-size: 12px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-right: 10px; 
+background:  var(--primary-color) ;
+}
+
