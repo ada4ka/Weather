@@ -1,17 +1,80 @@
+@import '../\ Root.css';
+*{
+    margin: 0;
+    padding: 0;
+}
 .header-title{
-    display: flex;
-  justify-content: center;
     font-size: 40px;
     color: white;
+    margin-bottom: 80px;
+}
+.header{
     padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .header-preview{
-    align-items: center; 
-    justify-content: center;
+    margin-left: -80px;
     display: flex;
-
+        align-items: center; 
+    row-gap: 52px;
+    margin-bottom: 137px;
 }
 .header-preview-vertical-line{
     rotate: 90deg;
     background: white;
+    width: 144px;
+    height: 1px;
+}
+.header-preview-left{
+    max-width: 290px;
+    color: white;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
+}
+.header-preview-right{
+    color: white;
+    max-width: 180px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.header-form{
+display: flex;
+row-gap: 3px;
+
+
+} 
+input[name="search"]{
+    background: #D9D9D9;
+    color: black;
+    padding: 13px 0px 12px 29px;
+    border-radius: 10px;
+       border-top-right-radius: 0px;
+     border-bottom-right-radius: 0px;;
+     width: 530px;
+     margin-right: 2px;
+
+}
+input[name="search"]::placeholder{
+    color: #878787;
+   
+}
+
+.header-form-bg{
+    background: var(--primary-color);
+    width: 42px;
+    height: 42px;
+    border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+     display: flex;
+     justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.header-form-search{
+    width: 80%;
+    height: 80%;
 }
