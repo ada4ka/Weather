@@ -1,11 +1,13 @@
 import React from "react";
 import './Nav.css';
-// import './Root.css'
+import { RiAccountCircleFill } from "react-icons/ri";
+import LogoNav from '../images/logo-nav.png'
+
 const Nav = () => {
   return (
     <nav className="nav" >
    <div className="nav-left">
-    <img src="" alt="" className="nav-left-logo" />
+  <img src= {LogoNav} alt=""   className="logo"/>
      <ul className="nav-left-list">
         <li className="nav-left-list-item">Who we are</li>
         <li className="nav-left-list-item">Contacts</li>
@@ -14,7 +16,9 @@ const Nav = () => {
    </div>
    <div className="nav-right">
    <button className="nav-right-enter">Sing Up</button>
-   <img src="" alt="" className="nav-right-profile" />
+   <div className="nav-profile"> 
+               <RiAccountCircleFill className="profile-item" />
+             </div>
    </div>
     </nav >
   );

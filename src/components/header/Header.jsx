@@ -2,6 +2,7 @@ import React from "react";
 import './Header.css';
 import FonHeader from '../images/fon-header.png'
 import { IoIosSearch } from "react-icons/io";
+
 const Header = () => {
   return (
     <header className="header"
