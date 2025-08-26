@@ -15,9 +15,9 @@ function App() {
 <div>
    <Nav/>
     <Header/>
+    <Weather/>
 {/*  <News/>
   <Pixabay/>
-  <Weather/>
    <Footer/>
    <UseNews/>
    <UsePixabay/>
