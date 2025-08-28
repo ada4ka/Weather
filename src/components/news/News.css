@@ -1,0 +1,21 @@
+
+.news-title{
+
+    font-size: 20px;
+}
+.news-more{
+    width: 138px;
+    height: 40px;
+background: var(--primary-color);
+border-radius: 10px;
+font-size: 16px;
+margin-top: 40px;
+}
+.news-cards-item-title{
+    font-size: 16px;
+}
+.news{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 80px;
+}

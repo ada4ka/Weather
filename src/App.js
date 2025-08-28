@@ -16,8 +16,8 @@ function App() {
    <Nav/>
     <Header/>
     <Weather/>
-{/*  <News/>
-  <Pixabay/>
+  <News/>
+  {/*<Pixabay/>
    <Footer/>
    <UseNews/>
    <UsePixabay/>
